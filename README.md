@@ -5,7 +5,7 @@ Class401-Lab02
 
 [GitHub Action](https://github.com/Samer-Alnajjar/basic-express-server/actions);
 
-[Pull Request](https://github.com/Samer-Alnajjar/server-deployment-practice/pull/5);
+[Pull Request](https://github.com/Samer-Alnajjar/basic-express-server/pull/2);
 
 **UML Diagram**
 
