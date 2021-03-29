@@ -29,6 +29,11 @@ app.use('*', notFoundHandler);
 
 // Functions
 
+
+// Functions
+/**
+ * This function will run when requesting the home routes "/".
+ */
 function handlePerson(req, res){
   // console.log(`__Query__`, req.query);
   const output = {
@@ -37,13 +42,18 @@ function handlePerson(req, res){
   res.json(output);
 }
 
+/**
+ * This function will run when requesting the "/bad" route.
+ */
 function handleError(req, res){
   throw new Error('something wrong!!');
 }
 
-function handleNotFound(req, res, next){
-  next('something wrong!!');
-}
+/**This will listen to the Server
+ * @param {number} port
+ * @example 
+ * start(port)
+ */
 
 // Listen to Port
 
